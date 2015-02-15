@@ -1,0 +1,54 @@
+html, body {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Header
+-------------------------------------------------------*/
+header {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+/* Navegação
+-------------------------------------------------------*/
+nav ul li {
+	list-style: none;
+	display: inline-block;	
+	vertical-align: top;
+	margin-right: 15px;
+}
+  nav ul li a {
+  	text-decoration: none;
+  }
+
+/* Boxs
+-------------------------------------------------------*/
+
+/* Black 
+=============*/
+.fi-box-black {
+	background-color: #333;
+	color: #fff;
+	margin-top: 20px;
+	padding: 20px;
+	min-height: 130px;
+}
+
+/* Links
+-------------------------------------------------------*/
+a { color: rgba(0,0,0,0.7); }
+a:hover { color: rgba(0,0,0,0.9); }
+
+
+/* Listas
+-------------------------------------------------------*/
+.fi-list li {
+	margin-left: 40px;
+}
+
+/* Parágrafos
+-------------------------------------------------------*/
+p {
+	margin: 10px 0px 10px 0px;
+}

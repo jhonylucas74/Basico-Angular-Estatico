@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Template básico Angular para sites estáticos</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CDN FONTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+  <!-- BOWER CSS 
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+  <link rel="stylesheet" type="text/css" href="vendor/1140px-responsive-css-grid/css/1140.css">
+  <link rel="stylesheet" type="text/css" href="vendor/fontawesome/css/font-awesome.min.css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">  
+  <link rel="stylesheet" href="css/layout.css">
+
+  <!-- BOWER JS 
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <script src="vendor/angular/angular.min.js"></script>
+  <script src="vendor/angular-route/angular-route.min.js"></script>
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+  <script src="js/app.js"></script>
+  
+</head>
+<body ng-app="my-app">
+  
+  <!-- Header -->
+  <header>
+    <div class="container12">
+      <div class="column12">
+        <h1>Template básico Angular para sites estáticos</h1>
+        <nav>
+          <ul>
+            <li><a href="#/"><i class="fa fa-home"></i> Página principal</a></li>
+            <li><a href="#/dependencias"><i class="fa fa-cubes"></i> Depedências</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>    
+  </header>
+
+  <div ng-view></div>
+
+</body>
+</html>
